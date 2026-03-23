@@ -5,7 +5,7 @@ Fused systolic array design consisted of configurable sub-arrays
 
 ![](figs/sub_arrays.png)
 
-This mode executes matrix-matrix multiplication exploiting the propagation of input in two weight stationary systolic array grids. This results in increased utilization when input data dimensions are smaller than physical dimensions of the grid.
+This mode executes matrix-matrix multiplication exploiting the propagation of input in two weight stationary systolic array grids. This results in increased utilization when input data dimensions are smaller than physical dimensions of the grid. This mode is ideal for the distribution of a key value to multiple query values in Grouped Query Attention implementations.
 
 # Fused Quad-Array Mode
 
